@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Sempre fui uma criança curiosa, mas talvez os adultos deveriam ter culpa nisso</p>
+            <button class="btn-proximo" data-proximo="1">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Uma vez, quando criança, minha falecida mãe me contou a história da sua origem. Ela sempre relembrava da tal cidade que ficava no interior de um certo Estado e como tinha saudades de lá</p>
+            <button class="btn-proximo" data-proximo="2">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo0.webp"alt="">
+            <p>Depois que atingi a vida adulta, uns dos meus maiores anceios era encontrar a tal cidade esquecida. Fui em busca de alguma pista, e em uma antiga carta de mamãe encontrei duas cidades para começar minha aventura:</p>
+            <button class="btn-proximo" data-proximo="3">Porto Alegre</button>
+            <button class="btn-proximo" data-proximo="4">São Paulo</button>
+
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Não encontrei nada por lá, tive que retornar ao ponto inicial</p>
+            <button class="btn-proximo" data-proximo="2">Retornar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Enquanto caminhava por lá, encontrei uma senhora que sempre aparecia nos retratos de mamãe. Após me apresentar e perguntar alguamas informações, ela disse sobre “ir para perto do mar"</p>
+            <button class="btn-proximo" data-proximo="19">Ir para o Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="6">Ir para o Nordeste</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Fui atrás da origem de mamãe pela região dela, chegando no Nordeste brasileiro me senti extremamente acolhida pelo povo e cultura</p>
+            <button class="btn-proximo" data-proximo="7">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Meu próximo passo era descobrir qual a próxima parada que deveria encontrar. Comecei a ler algumas cartas que minha mãe escrevia e encontrei os seguintes destinos: 
+                Bahia, Paraíba e Pernambuco. Até que me decidi ir para</p>
+            <button class="btn-proximo" data-proximo="8">Bahia</button>
+            <button class="btn-proximo" data-proximo="11">Paraíba</button>
+            <button class="btn-proximo" data-proximo="16">Pernambuco</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Na Bahia encontrei uma cultura maravilhosa! Me senti em casa e até conheci alguns parentes. Talvez a tal cidade escondida deveria ser aqui! </p>
+            <button class="btn-proximo" data-proximo="16">Continuar buscando a cidade em Pernambuco</button>
+            <button class="btn-proximo" data-proximo="10">Ficar na Bahia</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Fiquei na Bahia. Aqui me encontrei como cidadã brasileira e logo irei recomeçar minha nova vida por aqui!
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Na Paraíba me apaixonei pela culinária e as praias. Porém como tinha outros objetivos, fui a procura deles deles. Comecei minha procura na antiga casa de minha avó que se encontrava abandonada. Lá tinha um baú e uma estante, então começei a procurar 
+            </p>
+            <button class="btn-proximo" data-proximo="12">Estante</button>
+            <button class="btn-proximo" data-proximo="15">Baú</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Apenas livros empoerados e mofados, aparentemente nada demais até que...</p>
+            <button class="btn-proximo" data-proximo="13">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>UM MAPA! Começei a segui-lo e, depois de viajar muitos quilometros FINALMENTE ENCONTREI A TAL CIDADE PERDIDA!</p>
+            <button class="btn-proximo" data-proximo="14">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo11-cidade-perdida.png" alt="">
+            <p>Dentro da cidade perdida, descobri tesouros inimagináveis e decidi me dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Brinquedos antigos, provavelmente da minha mãe, além de algumas baratas e MUITO pó.
+            Porém, tinha mais alguma coisa..</p>
+            <button class="btn-proximo" data-proximo="13">CONTINUAR</button>
+        </div>
+
+        <div class="passo" id="passo-16">
+            <p>Em Pernambuco, visitei a histórica cidade de Olinda. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida eu deveria procurar a próxima pista em um dos pontos turísticos da cidade. Então começei por</p>
+            <button class="btn-proximo" data-proximo="17">Investigar as igrejas antigas</button>
+            <button class="btn-proximo" data-proximo="18">Explorar as praias próximas</button>
+        </div>
+
+        <div class="passo" id="passo-17">
+            <p>Nas igrejas de Olinda, descobri um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está na Paraíba.</p>
+            <button class="btn-proximo" data-proximo="11">Viajar para a Paraíba</button>
+        </div>
+
+        <div class="passo" id="passo-18">
+            <p>Explorando as praias, encontrei uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="17">Voltar e explorar as igrejas</button>
+        </div>
+
+        <div class="passo" id="passo-19">
+            <p>No Rio de Janeiro vi coisas maravilhosas, a cidade é LINDA! Começei minha jornada subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="20">Procurar a pista no topo do pico</button>
+            <button class="btn-proximo" data-proximo="21">Desistir e voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-20">
+            <p>No topo do Pico da Tijuca, encontrei antiga inscrição apontando que a próxima pista está
+                localizada no Nodeste.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Nordeste</button>
+        </div>
+
+        
+        <div class="passo" id="passo-21">
+            <img src="cenario-passo4-voltar-casa.webp"alt="">
+            <p>Talvez tudo isso foi apenas histórias para crianças dormirem... Essa aventura é grande demais, melhor voltar para casa, mas sempre me pergunto o que teria
+                encontrado.</p>
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
